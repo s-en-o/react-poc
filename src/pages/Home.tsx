@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+import Nav from '../components/Nav';
 
 const Home = () => (
     <>
-        <Link to="/parallax">Parallax</Link>
+        <Nav />
     </>
 );
 
