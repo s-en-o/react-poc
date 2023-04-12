@@ -2,7 +2,7 @@ import Nav from '../components/Nav';
 
 const Home = () => (
     <>
-        <Nav />
+        <h1>Homepage</h1>
     </>
 );
 
