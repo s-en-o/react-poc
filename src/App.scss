@@ -1,0 +1,83 @@
+.App {
+    min-height: 100vh;
+}
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.background-one {
+    min-height: 100vh;
+    background-image: url('../public/images/bg-one.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.background-one__title {
+    text-align: center;
+    color: #fff;
+}
+
+.box {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-one__inner {
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.box-two {
+    background-image: url('../public/images/bg-two.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-two__inner {
+    background-color: yellow;
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.box-three {
+    background-image: url('../public/images/bg-three.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-three__inner {
+    background-color: green;
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+}
